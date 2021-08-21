@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import style from "./compo.module.css"
+import style from "./nav.module.css"
 import on from "../img/logoon.png";
 import off from "../img/logooff.png"
 import { ThemeContext } from '../contexts/ThemeContext';

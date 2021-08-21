@@ -8,7 +8,7 @@ export const ThemeContext = createContext();
 export default function ThemeContextProvider(props) {
     const [isLight, setLight] = useState(true);
     const [theme,] = useState({
-        light : {syntax : "rgba(31, 46, 53, 0.8)" , bg : "white"},
+        light : {syntax : "black" , bg : "white"},
         dark : {syntax : "white", bg : "black"}
     })
     const toggler = () => {

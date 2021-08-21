@@ -1,3 +1,12 @@
+.mobile {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 .container {
     box-shadow:  0px 20px 50px #00000041
 }
@@ -14,13 +23,34 @@
 .logo:hover {
     animation: App-logo .8s linear;
 }
+.logom:hover {
+    animation: App-logo .8s linear;
+}
+.logom img {
+    height: 50px;
+}
+.themem {
+    height: 30px;
+}
 .theme {
     height: 40px;
     cursor: pointer;
     margin: 15px;
 }
+.burger {
+    height: 30px;
+}
 .theme:hover {
-    animation: App-logo 2s infinite;
+    animation: App-logo 2s linear;
+}
+.themem:hover {
+    animation: App-logo 2s linear;
+}
+.dropDown li {
+    height:50px;
+    width: 30%;
+    text-align:start;
+    margin: auto;
 }
 .navlinks {
     display: flex;
@@ -35,12 +65,14 @@
 
 }
 li{
+    color: black;
     text-decoration: none;
-    color: rgba(31, 46, 53, 0.8);
+    opacity: .5;
 }
 li:hover {
-    color: black;
+    opacity: 1;
 }
+
 @keyframes App-logo {
     from {
       transform: rotate(0deg);
