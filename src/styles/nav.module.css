@@ -1,0 +1,83 @@
+.mobile {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.navbar {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+}
+.logo:hover {
+    animation: App-logo .8s linear;
+}
+.logom:hover {
+    animation: App-logo .8s linear;
+}
+.logom img {
+    height: 50px;
+}
+.themem {
+    height: 30px;
+}
+.theme {
+    height: 40px;
+    cursor: pointer;
+    margin: 15px;
+}
+.burger {
+    height: 30px;
+}
+.theme:hover {
+    animation: App-logo 2s linear;
+}
+.themem:hover {
+    animation: App-logo 2s linear;
+}
+.dropDown li {
+    height:50px;
+    width: 30%; 
+    text-align:center;
+    margin: auto;
+}
+.dropDown {
+    padding: 50pxpx;
+}
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;
+
+}
+li{
+    color: black;
+    text-decoration: none;
+    opacity: .5;
+}
+li:hover {
+    opacity: 1;
+}
+
+@keyframes App-logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
