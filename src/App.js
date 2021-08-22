@@ -11,7 +11,7 @@ import Mobile from './components/Mobile';
 
 function App() {
   return (
-    <div className="App">
+    <div  className="App">
       <Router>
       <ThemeContextProvider>
         <div className="nav"><Navbar /></div>

@@ -3,7 +3,7 @@ import on from "../img/logoon.png";
 import off from "../img/logooff.png"
 import black from "../img/menub.png";
 import white from "../img/menuw.png";
-import style from "./nav.module.css";
+import style from "../styles/nav.module.css";
 import{Link} from "react-router-dom";
 import { ThemeContext } from '../contexts/ThemeContext';
 import night from "../img/night.png";
@@ -18,7 +18,7 @@ export default function Mobile() {
     const theme = isLight ? light : dark;
     const Style = {textDecoration: 'none', cursor: "pointer"};
     return (
-        <div style = {{backgroundColor : theme.bg, color : theme.syntax}} className={style.container}>
+        <div style = {{backgroundColor : theme.bg, color : theme.syntax}} className={style.cont}>
             <div className={style.mobile}>
             <div  className={style.logom}>
             <Link to ="/">
