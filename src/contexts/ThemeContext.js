@@ -6,7 +6,7 @@ export const ThemeContext = createContext();
 
 
 export default function ThemeContextProvider(props) {
-    const [isLight, setLight] = useState(true);
+    const [isLight, setLight] = useState(false);
     const [theme,] = useState({
         light : {syntax : "black" , bg : "white"},
         dark : {syntax : "white", bg : "black"}

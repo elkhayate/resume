@@ -45,8 +45,7 @@
 .dropDown li {
     height:50px;
     width: 30%; 
-    text-align:center;
-    margin: auto;
+    text-align:start;
 }
 .dropDown {
     padding: 50pxpx;
@@ -66,11 +65,8 @@
 li{
     color: black;
     text-decoration: none;
-    opacity: .5;
 }
-li:hover {
-    opacity: 1;
-}
+
 
 @keyframes App-logo {
     from {

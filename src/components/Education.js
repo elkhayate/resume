@@ -8,9 +8,10 @@ export default function Education() {
     useEffect(() => { sanityClient.fetch('*[_type == "skill"]{title, mainImage}').then((data) => setSkill(data)).catch(console.error)},[]);
     useEffect(() => { sanityClient.fetch('*[_type == "institute"]{ certificate, insti}').then((data) => setUni(data)).catch(console.error);
     },[])
+    const theme = uni + skill;
     return(
         <div>
-
+            {theme}
         </div>
     )
 }

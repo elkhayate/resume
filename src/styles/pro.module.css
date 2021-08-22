@@ -1,12 +1,33 @@
 .container {
+    width: 28%;
+    height: 15%;
     display: block;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
     align-content: center;
+    background-color: #aba4b3;
+    border-radius: 5px;
+    margin: 2px;
+}
+.container img {
+    width: 60%;
+    margin:auto;
 }
 .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
+}
+.projects {
+    height: 100vh;
+}
+.listt {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
