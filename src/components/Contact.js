@@ -33,7 +33,7 @@ function Contact() {
                     <h1>Message :</h1>
                     <textarea style={{color : Theme.syntax, backgroundColor : Theme.bg, border : Theme.br}} className={style.cmt} type="text" name = "message" required  />
                     <button style={{color : Theme.syntax}} className={style.send}>Send</button>
-                    {result ? <p>Your message has been successfuly sent.</p> : null}
+                    {result ? <p>Your message has been sent successfully.</p> : null}
                 </form>
 
             </div>
