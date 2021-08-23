@@ -27,6 +27,7 @@
 }
 .themem {
     height: 30px;
+    cursor: pointer;
 }
 .theme {
     height: 40px;

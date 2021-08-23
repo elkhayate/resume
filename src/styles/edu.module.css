@@ -1,0 +1,120 @@
+.container {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    padding: 50px;
+}
+.education h1 {
+    margin-bottom: 30px;
+}
+.uni {
+    height: 100px;
+    width: 100%;
+    display: block;
+    align-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    margin-left: 0px;
+}
+.uni p {
+    font-family: Quicksand,Arial,sans-serif;
+    line-height: 1.3em;
+    letter-spacing: .04em;
+    font-size: 15px;
+}
+.skill {
+    height: 150px;
+    width: 20%;
+}
+.skill h3 {
+    font-family: Quicksand,Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.skill img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.edu h1 {
+    font-family: Quicksand,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.uni h1 {
+    font-family: Quicksand,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 133.69%;   
+}
+.edu {
+    display: block;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    height: 100%;
+    margin-right: 150px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.education {
+    height: 100vh;
+}
+.skillss {
+    display: block;
+    align-items: center;
+    width: 60%;
+}
+.skillss h1 {
+    font-family: Quicksand,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+@media (max-width : 1100px) {
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+        display: block;
+        padding: 20px;
+    }
+    .edu {
+        width: 75%;
+        margin-right: 0px;
+    }
+    .skillss {
+        width: 90%;
+        margin-left: 0px;
+        text-align: start;
+    }
+    .skills {
+        margin: auto;
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+    .education {
+        height: 100%;
+    }
+    .education h1 {
+        margin-bottom: 10px;
+    }
+    .skill {
+        width: 30%;
+        text-align: center;
+    }
+    .skill h3 {
+        font-size: 15px;
+    }
+}
