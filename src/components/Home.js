@@ -6,6 +6,7 @@ import {Link} from "react-router-dom"
 import twitter from "../img/twitter.png"
 import github from "../img/github.png";
 import linkedin from "../img/linked.png"
+import pdf from "../files/myfile.pdf";
 export default function Home() {
     const {isLight, dark, light} = useContext(ThemeContext);
     const theme = isLight ? light : dark;
@@ -17,7 +18,7 @@ export default function Home() {
             <div className={style.info}>
                 <h1>Hi, I'm Elkhayate</h1>
                 <p>A passionate Web Developer, having an experience of building web applications, who love problem solving, discovering and using new technologies to build multiple projects.</p>
-                <Link style={Style} to="../files/myfile.pdf" target="_blank" download><button style={{backgroundColor:theme.bg, color : theme.syntax}} className={style.btn}>GET RESUME</button></Link>
+                <Link style={Style} to={pdf} target="_blank" download><button style={{backgroundColor:theme.bg, color : theme.syntax}} className={style.btn}>GET RESUME</button></Link>
             </div>
             <img src = {dev} alt ="web dev" />
             </div>
