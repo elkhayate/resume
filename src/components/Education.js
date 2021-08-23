@@ -23,7 +23,7 @@ export default function Education() {
             }
             </div>
             <div className={style.skillss}>
-            <h1>Languagues and Frameworks</h1>
+            <h1>Languages and Frameworks</h1>
             <div className={style.skills}>
                 
             {
