@@ -16,7 +16,7 @@ export default function Home() {
             
             <div className={style.info}>
                 <h1>Hi, I'm Elkhayate</h1>
-                <p>A passionate Web Developer, having an experience of building web applications, who love problem solving, discovering new technologies and use them to build multiple projects.</p>
+                <p>A passionate Web Developer, having an experience of building web applications, who love problem solving, discovering and using new technologies to build multiple projects.</p>
                 <Link style={Style} to="/files/myfile.pdf" target="_blank" download><button style={{backgroundColor:theme.bg, color : theme.syntax}} className={style.btn}>GET RESUME</button></Link>
             </div>
             <img src = {dev} alt ="web dev" />
@@ -33,3 +33,4 @@ export default function Home() {
         </div>
     )
 }
+

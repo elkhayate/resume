@@ -3,7 +3,7 @@
     padding: 50px;
 }
 .content {
-    height: 85%;
+    height: 65%;
     width: 65%;
     margin: auto;
     display: flex;
@@ -13,18 +13,17 @@
     text-align: start;
 }
 .content h1 {
-    font-family: Roboto;
+    font-family: Quicksand,Arial,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 133.69%;   
 }
 .content p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: lighter;
+    font-family: Quicksand,Arial,sans-serif;
+    line-height: 1.3em;
+    letter-spacing: .04em;
     font-size: 20px;
-    line-height: 29px;    
 }
 .info {
     width: 40%;
@@ -50,6 +49,13 @@
 .btn:hover {
     opacity: 1;
 }
+.social h1 {
+    font-family: Quicksand,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 133.69%;
+}
 .content img {
     height: 50%;
     margin: 20px;
@@ -68,7 +74,7 @@
 }
 @media (max-width : 1100px) {
     .content {
-        width: 95%;
+        width: 100%;
         display: block;
         justify-content: space-around;
         align-items: center;
@@ -91,12 +97,11 @@
         height: 40px;
     }
     .social {
+        margin-top: 130px;
         width: 90%;
     }
     .social h1 {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
+        
         font-size: 20px;
     }
 
